@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.list a {
+    text-decoration: none;
+    margin-right: 20px; /* Adjust margin as needed */
+    color: #adadad;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0 4% 0 0;
+}
+.user-container h4{
+    color: #7e7e7e;
+
+}
+
+/* New Arrival Boady Part */
+
+.newArrival{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+   width: 45%;
+   height: 30px;
+   border-radius: 50px;
+   color: #5b8caa;
+   
+}
+
+
+.right-side{
+   margin-top: 8%;
+   /* width: 60%; */
+}
+.heading{
+    text-align: center;
+    margin-bottom: 6%;
+    color: #91b4b0;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnss{
+    height: 30px;
+    border-radius: 50px;
+    color: #ccfefd;
+    background: #2bb899;
+    border: 1px solid #34766c;
+}
+.btn2{
+    width: 35%;
+    margin-bottom: 2%;
+}
+.btn3{
+    width: 25%;
+}
+
+.carousel-cards {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5%;
+  
+}
+
+.approach-card {
+    width: 170px;
+    height: 190px;
+    border-radius: 8px;
+    border: 2px solid #34766c ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+
+
+.card-image {
+    flex: 1; /*Image takes half of the card width */
+    height: 75%; /* Allows the height to adjust proportionally to the width */
+    /* max-height: 100%; Prevent image overflow */
+    /* object-fit: cover; */
+
+
+}
+
+.card-text {
+    flex: 1; 
+    padding: 10px; 
+    text-align: center;
+    color: #34766c;
+}
+
+
+.approach-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.5px;
+    text-align: center;
+}
+
+.next-arrow,
+.prev-arrow{
+    color: #e1e1e1;
+    font-size: 54px;
+}
+.dots{
+    color: #2bb899;
+    font-size: 24px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .list {
+      margin-left: 5%; /* Adjust margin as needed */
+    }
+    .newArrival{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn1 {
+      width: 70%;
+    }
+  
+    .right-side {
+      margin-top: 5%;
+    }
+  
+    .carousel-cards {
+      gap: 15px;
+      width: 95%;
+    }
+  
+   
+  }
+  
